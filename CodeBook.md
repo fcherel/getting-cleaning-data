@@ -5,8 +5,8 @@ All variable names are taken from the original dataset "UCI HAR Dataset".
 
 The variable names for all the measurements come from the "features.txt" file and are described in the "features_info.txt" file.
 
-In the data frame "alldata", "selected_data" and "avg_selected":
 "activity" was taken from the "y_train.txt" and "y_test.txt" files, and made descriptive with the "activity_labels.txt" file.
+
 "subject" was taken from the "subject_train.txt" and "subject_test.txt" files
 
-In the avg_selected data frame: the measurements variables have the same names as the original ones, but they are actually the average of each measurement, for each subject and activity type.
+The measurements variables have the same names as the original ones, but they are actually the average of each measurement, for each subject and activity type.

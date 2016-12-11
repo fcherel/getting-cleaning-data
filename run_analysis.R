@@ -41,3 +41,7 @@ selected_data <- alldata[, selection]
 melt_selected <- melt(selected_data, id.vars=c("subject", "activity"))
 avg_selected <- dcast(melt_selected, subject + activity ~ variable, mean, na.rm = TRUE)
 
+## 7. Write the final dataset in a file
+
+write.table(avg_selected, file="avg_selected.txt" , row.name=FALSE)
+

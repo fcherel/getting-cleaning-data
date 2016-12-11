@@ -13,3 +13,4 @@ The run_analysis.R scrip does the following:
 4. it merges all the data together in the alldata fata frame (adding subject and activity columns to all measurements, and combining train and test data)
 5. it selects only the subject, activity and mean and standard deviation of each measurement to make the selected_data
 6. it takes the average of each variable of the selected data for each activity and each subject, using the reshape2 package, to make the avg_selected data frame
+7. it writes this final data frame into a file
